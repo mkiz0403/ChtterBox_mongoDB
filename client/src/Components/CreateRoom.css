@@ -1,0 +1,83 @@
+.openCreatRoomBox{
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.openCreatRoomBox button{
+  margin: 20px 0;
+  width: 20%;
+  height: 40px;
+  background-color: #0094FF;
+  border-radius: 8px;
+  border: 2px solid #0094FF;
+}
+
+.createRoomBox{
+  display: flex;
+  flex-flow: column;
+  width: 48%;
+  border: 1px solid #0094FF;
+  padding-left: 20px;
+  border-radius: 8px;
+  
+}
+
+.createRoomBox__roomName{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.createRoomBox__roomName p{
+  margin: 8px 0;
+}
+
+.createRoomBox__roomName input{
+  width: 70%;
+  height: 10%;
+  padding: 10px;
+  border-color: #0094FF;
+  border-radius: 8px;
+  background-color: white;
+  border: 2px solid #0094FF;
+  color: black;
+}
+
+
+.createRoomBox__message{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  margin:0;
+}
+
+.createRoomBox__message p{
+  margin: 8px 0;
+}
+
+.createRoomBox__message input{
+  width: 100%;
+  padding: 10px;
+  border-color: #0094FF;
+  border-radius: 8px;
+  background-color: white;
+  border: 2px solid #0094FF;
+  color: black;
+}
+
+.createRoomBox__buttonBox{
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 20px;
+}
+
+.createRoomBox__buttonBox button{
+  margin: 10px 0;
+  width: 20%;
+  height: 40px;
+  background-color: #0094FF;
+  border-radius: 8px;
+  border: 2px solid #0094FF;
+}

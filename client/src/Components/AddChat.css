@@ -1,0 +1,25 @@
+.inputMessege{
+  width: 1000px;
+  margin-top:20px;
+  text-align: center;
+}
+
+.inputMessege input{
+  width: 60%;
+  height: 20%;
+  margin: 10px;
+  padding: 10px;
+  border-color: #ea5936;
+  border-radius: 8px;
+  background-color: white;
+  border: 2px solid #ea5936;
+  color: black;
+}
+
+.inputMessege button{
+  width: 8%;
+  height: 40px;
+  background-color: #ea5936;
+  border-radius: 8px;
+  border: 2px solid #ea5936;
+}

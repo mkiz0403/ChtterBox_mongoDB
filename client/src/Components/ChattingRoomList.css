@@ -1,0 +1,73 @@
+.roomBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.creatRoom{
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.creatRoom button{
+  width: 20%;
+  height: 40px;
+  background-color: #0094FF;
+  border-radius: 8px;
+  border: 2px solid #0094FF;
+}
+
+.creatRoom button:hover {
+  background-color: white;
+  color : #0094FF ;
+  cursor: pointer;
+}
+
+.chattingRoom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roomTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.roomList{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.roomList__roomName{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.roomList__button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 40px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #0094FF
+  /* box-shadow:none; */
+}
+
+.roomList__button:hover {
+  background-color: #0094FF;
+  color : white;
+  cursor: pointer;
+}

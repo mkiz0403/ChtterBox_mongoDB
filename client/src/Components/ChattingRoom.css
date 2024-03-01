@@ -1,0 +1,70 @@
+.chattingRoom{
+  display: flex; 
+  flex-flow: column;
+}
+.chattingRoom__roomName{
+  display: flex;
+}
+
+.chattingRoom__backButton{
+  display: flex;
+  justify-content: flex-end;
+  width : 90%;
+  margin-bottom: 10px;
+}
+
+.chattingRoom__backButton button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:10%;
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid #ea5936;
+  background-color: #ea5936;
+}
+
+.chatterBox{
+  display: flex;
+  width : 90%;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+  padding: 20px;
+}
+
+.chatterBox_informmation{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.chatterBox__userName{
+  width:70%;
+  display: flex;
+  color: black;
+  font-weight: bold;
+}
+.chatterBox__messageBox {
+  display: flex;
+  background-color: #ea5936;
+  border-radius: 8px;
+  color: #fff;
+  padding: 7px 12px;
+  margin-top: 5px;
+  max-width: 230px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.chatterBox__chtterMessage {
+  margin-top: 10px;
+  margin-right: 20px;
+  text-align: right;
+}
+
+.chatterBox__messageTime {
+margin-bottom: 10px;
+} 
